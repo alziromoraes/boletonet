@@ -660,7 +660,7 @@ namespace BoletoNet
             try
             {
                 string header = "341";
-                header += "0001";
+                header += "0000";
                 header += "0";
                 header += Utils.FormatCode("", " ", 9);
                 header += (cedente.CPFCNPJ.Length == 11 ? "1" : "2");
